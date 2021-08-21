@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap'); */
 
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Source+Sans+Pro&display=swap');
 
@@ -8,5 +8,36 @@ body {
     /* font-family: Rampart One;  */
     /* color: red;  */
     font-family: Source Sans Pro;
+}
+
+/* container */
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.cont-center {
+max-width: 600px;
+margin: 0 auto;
+border: 1px solid green;
+
+}
+
+a {
+    text-decoration: none;
+    margin: 1rem 0.5rem;
+    padding: 0.5rem 1rem;    
+    border-radius: 0.5rem;
+}
+
+.link-prim {
+    background-color: teal;
+    color: white; 
+}
+
+.link-sec {
+    color: teal; 
+    border: 1px solid teal; 
 }
 
