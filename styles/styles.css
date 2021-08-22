@@ -7,7 +7,9 @@
 :root {
     --primary-color: #78350F;
     --dark-grey: #6B7280;
-    --light-grey: #E5E7EB; 
+    /* --light-grey: #F3F4F6; */
+    /* --light-grey: #E5E7EB; */
+    --light-grey: #F2F2F2; 
     --light-yellow1: #FFFBEB;
     --light-yellow2: #FEF3C7; 
 }
@@ -18,6 +20,7 @@ body {
     /* font-family: Source Sans Pro; */
     font-family: open sans;
     margin:0; 
+    /* background-color: var(--light-yellow2); */
     /* max-width: 1100px;  */
     /* padding: 0;  */
 }
@@ -43,8 +46,9 @@ body {
 a {
     text-decoration: none;
     margin: 1rem 0.5rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem ;
     border-radius: 0.5rem;
+    /* border: 3px solid red; */
 }
 
 .link-prim {
@@ -123,19 +127,34 @@ h3 {
 footer {
     background-color: var(--primary-color);
     text-align: center;
-    padding: 1rem 2rem ;
+    padding: 1rem 0;
     color: white;
     border-top-right-radius: 1rem;
 
 }
 
+footer>div {
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    /* border: 1px solid gold;  */
+}
+
+footer>ul {
+    margin: 0 auto; 
+}
 footer>ul>li>a {
     color: white; 
+    margin: 1rem; 
 }
-.on-buttons {
-    text-align: center;
-    background-color: var(--light-grey);
+.cont {
+    color: var(--primary-color);
+    text-align: center;    
+    margin: 1rem; 
     padding-top: 0.5rem ;
-    padding-bottom: 1.2rem;
+    padding-bottom: 1.5rem;
+    /* border: 2px solid green;  */
 
+}
+.cont1 {
+    background-color: var(--light-grey);
 }
