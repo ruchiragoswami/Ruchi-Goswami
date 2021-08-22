@@ -1,15 +1,31 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-/* @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Source+Sans+Pro&display=swap');
+
+:root {
+    --primary-color: #78350F;
+    --dark-grey: #6B7280;
+    --light-grey: #E5E7EB; 
+    --light-yellow1: #FFFBEB;
+    --light-yellow2: #FEF3C7; 
+}
 
 body {
     /* font-family: Rampart One;  */
     /* color: red;  */
-    font-family: Source Sans Pro;
+    /* font-family: Source Sans Pro; */
+    font-family: open sans;
+    margin:0; 
+    /* max-width: 1100px;  */
+    /* padding: 0;  */
 }
 
+.main-container {
+    max-width: 1000px;
+    margin: 0 auto; 
+}
 /* container */
 
 .container {
@@ -18,26 +34,108 @@ body {
 }
 
 .cont-center {
-max-width: 600px;
-margin: 0 auto;
-border: 1px solid green;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid green;
 
 }
 
 a {
     text-decoration: none;
     margin: 1rem 0.5rem;
-    padding: 0.5rem 1rem;    
+    padding: 0.5rem 1rem;
     border-radius: 0.5rem;
 }
 
 .link-prim {
-    background-color: teal;
-    color: white; 
+    background-color: var(--primary-color);
+    color: white;
 }
 
 .link-sec {
-    color: teal; 
-    border: 1px solid teal; 
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
+hr {
+    margin: 2rem 0;
+}
+
+.list-no-bullet {
+    list-style: none;
+}
+
+
+.list-item-inline {
+    display: inline;
+    padding: 0 0.5rem;
+}
+
+nav {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+nav>ul>li>a {
+    color: white;
+}
+
+nav>ul {
+    text-align: right;
+}
+
+nav>div {
+    max-width: 80px;
+    /* border: 1px solid gold; */
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.link-active {
+    font-weight: bold;
+}
+
+header {
+    padding: 2rem;
+    color: var(--dark-grey);
+}
+
+.hero-img {
+    max-width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+header>h2 span {
+    color: var(--primary-color);
+}
+
+section h2,
+h3 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.5rem;
+    /* border: 1px solid gold;  */
+}
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem 2rem ;
+    color: white;
+    border-top-right-radius: 1rem;
+
+}
+
+footer>ul>li>a {
+    color: white; 
+}
+.on-buttons {
+    text-align: center;
+    background-color: var(--light-grey);
+    padding-top: 0.5rem ;
+    padding-bottom: 1.2rem;
+
+}
