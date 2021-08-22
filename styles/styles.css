@@ -9,9 +9,9 @@
     --dark-grey: #6B7280;
     /* --light-grey: #F3F4F6; */
     /* --light-grey: #E5E7EB; */
-    --light-grey: #F2F2F2; 
+    --light-grey: #F2F2F2;
     --light-yellow1: #FFFBEB;
-    --light-yellow2: #FEF3C7; 
+    --light-yellow2: #FEF3C7;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
     /* color: red;  */
     /* font-family: Source Sans Pro; */
     font-family: open sans;
-    margin:0; 
+    margin: 0;
     /* background-color: var(--light-yellow2); */
     /* max-width: 1100px;  */
     /* padding: 0;  */
@@ -27,8 +27,10 @@ body {
 
 .main-container {
     max-width: 1000px;
-    margin: 0 auto; 
+    margin: 0 auto;
+    text-align: center;
 }
+
 /* container */
 
 .container {
@@ -46,7 +48,7 @@ body {
 a {
     text-decoration: none;
     margin: 1rem 0.5rem;
-    padding: 0.5rem ;
+    padding: 0.5rem;
     border-radius: 0.5rem;
     /* border: 3px solid red; */
 }
@@ -140,21 +142,41 @@ footer>div {
 }
 
 footer>ul {
-    margin: 0 auto; 
+    margin: 0 auto;
 }
+
 footer>ul>li>a {
-    color: white; 
-    margin: 1rem; 
+    color: white;
+    margin: 1rem;
 }
+
 .cont {
     color: var(--primary-color);
-    text-align: center;    
-    margin: 1rem; 
-    padding-top: 0.5rem ;
+    text-align: center;
+    margin: 1rem;
+    padding-top: 0.5rem;
     padding-bottom: 1.5rem;
     /* border: 2px solid green;  */
 
 }
+
 .cont1 {
     background-color: var(--light-grey);
+}
+
+/* Styles for porject page */
+
+.proj-hdr {
+    text-align: center;
+}
+
+.list-proj>li {
+    margin-bottom: 1rem;
+
+    padding-bottom: 2rem;
+}
+
+.list-proj>li>p {
+    margin-bottom: 1.2rem;
+    padding: 0.5rem;
 }
