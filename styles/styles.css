@@ -7,11 +7,10 @@
 :root {
     --primary-color: #78350F;
     --dark-grey: #6B7280;
-    /* --light-grey: #F3F4F6; */
-    /* --light-grey: #E5E7EB; */
     --light-grey: #F2F2F2;
-    --light-yellow1: #FFFBEB;
-    --light-yellow2: #FEF3C7;
+    --light-black: #1F2937;
+    /* --light-yellow1: #FFFBEB;
+    --light-yellow2: #FEF3C7; */
 }
 
 body {
@@ -172,11 +171,69 @@ footer>ul>li>a {
 
 .list-proj>li {
     margin-bottom: 1rem;
-
+    padding-top: 0.5rem;
     padding-bottom: 2rem;
 }
 
 .list-proj>li>p {
     margin-bottom: 1.2rem;
     padding: 0.5rem;
+    line-height: 1.7rem;;
+}
+
+/* Styles for Blogs page */
+
+.blog-hdr span {
+    color: var(--primary-color);
+}
+
+.all-blogs {
+    text-align: left;
+    color: var(--dark-grey);
+    
+
+}
+
+.list-blogs {
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+    border-bottom:1px solid var(--primary-color);
+}
+
+.list-blogs>h2,small {
+    /* border: 1px solid red;  */
+    margin: 0.2rem;
+    color: var(--dark-grey)
+}
+
+.list-blogs>p {
+    /* border: 1px solid blue;  */
+    /* padding: 0.3rem auto; */
+    line-height: 1.6rem;
+    color: var(--light-black);
+}
+
+.list-blogs>a {
+    /* margin: 1rem; */
+    /* border: 4px solid yellow; */
+    padding: 0.9rem;
+    margin: 0 auto;
+    display: block;
+    max-width: 7rem;
+    text-align: center;
+
+}
+
+/* Styles for individual blog pages */
+
+.blog-indiv {
+    font-weight: bold;
+    margin-top: 1rem;
+    display: block;
+    /* border: 1px solid red; */
+}
+
+.read-blogs{
+    padding: 1.2rem; 
+    /* border: 1px solid red; */
 }
