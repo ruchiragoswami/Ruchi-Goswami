@@ -238,5 +238,7 @@ footer>ul>li>a {
     /* border: 1px solid red; */
 }
 .img-blog {
+    display: block;
     margin: 0 auto; 
+    /* border: 3px solid red;  */
 }
