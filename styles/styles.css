@@ -159,6 +159,10 @@ footer>ul>li>a {
 
 }
 
+/* .cont1>p, .cont2>p {
+    text-align: left;
+} */
+
 .cont1 {
     background-color: var(--light-grey);
 }
