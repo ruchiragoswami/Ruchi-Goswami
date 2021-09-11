@@ -67,7 +67,9 @@ a {
 
 .link-sec {
     color: var(--color1);
-    border: 1px solid var(--color3);
+    border: 1px solid var(--color1);
+    background-color: var(--color4);
+    font-weight: 600;
 }
 
 hr {
@@ -111,7 +113,8 @@ nav>div {
 }
 
 header {
-    padding: 2rem;
+    margin-top: 0.5rem;
+    padding: 1rem 0 0.8rem 0;
     color: var(--color2);
 }
 
@@ -160,7 +163,7 @@ footer>ul>li>a {
 .cont {
     color: var(--color1);
     text-align: center;
-    /* margin: 1rem; */
+    margin: 0.8rem;
     padding-top: 0.5rem;
     padding-bottom: 1.5rem;
     /* background-color: var(--color5); */
