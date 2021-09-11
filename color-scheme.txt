@@ -1,0 +1,13 @@
+:root {
+    --color1: #123C69; imperial blue 
+    --color2: #AC3B61; ruby
+    --color3: #EDC7B7; pale pink
+    --color4: #EEE2DC; pale grey 
+    --color5: #BAB2B5; grey
+}
+
+
+
+
+
+
