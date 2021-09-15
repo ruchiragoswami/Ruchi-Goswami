@@ -220,11 +220,16 @@ footer>ul>li>a {
     border-bottom: 1px solid var(--color1);
 }
 
-.list-blogs>h2,
-small {
+.list-blogs>h2
+ {
     /* border: 1px solid red;  */
     margin: 0.2rem;
     color: var(--color5)
+}
+
+small {
+    color: var(--color2);
+    font-weight: 600;
 }
 
 .list-blogs>p {
