@@ -209,7 +209,7 @@ footer>ul>li>a {
 
 .all-blogs {
     text-align: left;
-    color: var(--color5);
+    color: var(--color1);
 
 
 }
@@ -224,7 +224,7 @@ footer>ul>li>a {
  {
     /* border: 1px solid red;  */
     margin: 0.2rem;
-    color: var(--color5)
+    color: var(--color2)
 }
 
 small {
@@ -236,7 +236,7 @@ small {
     /* border: 1px solid blue;  */
     /* padding: 0.3rem auto; */
     line-height: 1.6rem;
-    color: var(--color2);
+    color: var(--color1);
 }
 
 .list-blogs>a {
