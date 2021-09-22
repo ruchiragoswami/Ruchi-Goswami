@@ -27,8 +27,9 @@ body {
     padding: 0 0.5rem;
 }
 
-h2 {
+h1 {
     margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
 }
 
 /* container */
@@ -118,7 +119,7 @@ header {
     margin: 0 auto;
 }
 
-header>h2 span {
+header>h1 span {
     color: var(--color1);
 }
 
