@@ -10,25 +10,14 @@
     --color3: #BAB2B5;
     --color4: #ffffff;
     --color5: #EEE2DC;
-  /* EEE2DC*/
 }
 
-
-
-/* :root {
-    --color1: #f4edd8;
-    --color2: #ae1f79;
-    --color3: #5314a0;
-    --color4: #f3c7cc;
-} */
-
 body {
-    
+
     font-family: open sans;
     margin: 0;
+    padding: 0;
     background-color: var(--color4);
-    /* max-width: 1100px;  */
-    /* padding: 0;  */
 }
 
 .main-container {
@@ -38,6 +27,10 @@ body {
     padding: 0 0.5rem;
 }
 
+h2 {
+    margin-bottom: 0.5rem;
+}
+
 /* container */
 
 .container {
@@ -45,19 +38,11 @@ body {
     padding-right: 1rem;
 }
 
-/* .cont-center {
-    max-width: 600px;
-    margin: 0 auto;
-    border: 1px solid green;
-
-} */
-
 a {
     text-decoration: none;
-    margin: 1rem 0.5rem;
+    margin: 1.2rem 0.5rem;
     padding: 0.5rem;
-    border-radius: 0.5rem;
-    /* border: 3px solid red; */
+    border-radius: 0.5rem;    
 }
 
 .link-prim {
@@ -78,38 +63,47 @@ hr {
 
 .list-no-bullet {
     list-style: none;
+    
 }
 
 
 .list-item-inline {
     display: inline;
-    padding: 0 0.5rem;
+    padding:  0.5rem;
+    color: var(--color5);
 }
 
 nav {
     background-color: var(--color1);
-    color: white;
-    padding: 1rem;
+    color: var(--color4);
+    padding: 0 1rem;
     border-bottom-left-radius: 1rem;
-}
-
-nav>ul>li>a {
-    color: white;
-}
-
-nav>ul {
-    text-align: right;
-}
-
-nav>div {
-    max-width: 80px;
-    /* border: 1px solid gold; */
-    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    /* font-weight: bold; */
     font-size: 1.1rem;
 }
 
+ nav>ul>a:link  {
+    color: var(--color4);
+}
+
+a>.list-item-inline:hover,
+a:hover {
+    color: var(--color3);
+} 
+
 .link-active {
-    font-weight: bold;
+    border-bottom: 2px solid var(--color5);
+}
+nav>ul {
+    text-align: right;   
+    margin-right: 1rem;   
+    color: var(--color4);
+}
+
+nav>div {    
+    padding: 1rem; 
 }
 
 header {
@@ -132,23 +126,20 @@ section h2,
 h3 {
     margin: 0 auto;
     text-align: center;
-    padding: 0.5rem;
-    /* border: 1px solid gold;  */
+    padding: 0.5rem;    
 }
 
 footer {
     background-color: var(--color1);
     text-align: center;
-    padding: 1rem 0;
+    padding: 1rem 0 2rem 0;
     color: white;
     border-top-right-radius: 1rem;
-
 }
 
 footer>div {
     font-weight: bold;
-    margin-bottom: 1.2rem;
-    /* border: 1px solid gold;  */
+    margin-bottom: 1.2rem;    
 }
 
 footer>ul {
@@ -164,22 +155,20 @@ footer>ul>li>a {
     color: var(--color1);
     text-align: center;
     margin: 0.8rem;
-    padding-top: 0.5rem;
-    padding-bottom: 1.5rem;
-    /* background-color: var(--color5); */
-    /* border: 2px solid green;  */
-
+    padding: 0.5rem 1.5rem;    
 }
 
-/* .cont1>p, .cont2>p {
-    text-align: left;
-} */
+.cont>p {    
+    padding: 0.5rem 1rem;
+    line-height: 1.7rem;    
+}
 
 .cont1 {
     background-color: var(--color5);
 }
-.cont2{
-    background-color:var(--color3);
+
+.cont2 {
+    background-color: var(--color3);
 }
 
 /* Styles for porject page */
@@ -210,8 +199,11 @@ footer>ul>li>a {
 .all-blogs {
     text-align: left;
     color: var(--color1);
+}
 
-
+.all-blogs>li::marker {
+    color: var(--color1);
+    font-weight: bold;
 }
 
 .list-blogs {
@@ -220,9 +212,7 @@ footer>ul>li>a {
     border-bottom: 1px solid var(--color1);
 }
 
-.list-blogs>h2
- {
-    /* border: 1px solid red;  */
+.list-blogs>h2 {    
     margin: 0.2rem;
     color: var(--color2)
 }
@@ -232,16 +222,12 @@ small {
     font-weight: 600;
 }
 
-.list-blogs>p {
-    /* border: 1px solid blue;  */
-    /* padding: 0.3rem auto; */
+.list-blogs>p {       
     line-height: 1.6rem;
     color: var(--color1);
 }
 
-.list-blogs>a {
-    /* margin: 1rem; */
-    /* border: 4px solid yellow; */
+.list-blogs>a {    
     padding: 0.9rem;
     margin: 0 auto;
     display: block;
@@ -255,17 +241,14 @@ small {
 .blog-indiv {
     font-weight: bold;
     margin-top: 1rem;
-    display: block;
-    /* border: 1px solid red; */
+    display: block;    
 }
 
 .read-blogs {
-    padding: 1.2rem;
-    /* border: 1px solid red; */
+    padding: 1.2rem;    
 }
 
 .img-blog {
     display: block;
-    margin: 0 auto;
-    /* border: 3px solid red;  */
+    margin: 0 auto;    
 }
