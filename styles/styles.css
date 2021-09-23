@@ -24,7 +24,7 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
-    padding: 0 0.5rem;
+    padding: 0  0.5rem 0.5rem 0.01rem;
 }
 
 h1 {
