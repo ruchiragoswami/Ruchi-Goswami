@@ -238,6 +238,18 @@ small {
 
 }
 
+#up-arrow {
+    display: none;
+    position: fixed;
+    bottom: 2rem; 
+    right: 1rem;
+    z-index: 99; 
+    height: 80px; 
+    width: 80px;     
+}
+
+
+
 /* Styles for individual blog pages */
 
 .blog-indiv {
