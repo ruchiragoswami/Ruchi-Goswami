@@ -237,17 +237,32 @@ small {
     text-align: center;
 
 }
+/* .blog-listing {
+    width: 100%; 
+    background-color: lightyellow;
+    position: relative; 
+} */
+
+/* #up-arrow {  
+    position: fixed;
+   left:900px;  
+    right: 5rem;
+     
+         
+    border: 1px solid red; 
+} */
+
 
 #up-arrow {
-    display: none;
-    position: fixed;
-    bottom: 2rem; 
-    right: 1rem;
-    z-index: 99; 
     height: 80px; 
     width: 80px;     
-}
+    position : sticky;  
+    bottom: 10rem;
+    left: 2000px; 
+    z-index: 99;
 
+
+}
 
 
 /* Styles for individual blog pages */
