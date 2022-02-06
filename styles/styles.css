@@ -79,11 +79,31 @@ nav {
     color: var(--color4);
     padding: 0 1rem;
     border-bottom-left-radius: 1rem;
+    padding: 0;
     display: flex;
-    justify-content: space-between;
-    /* font-weight: bold; */
+    justify-content: space-between; 
+     font-weight: bold;
     font-size: 1.1rem;
 }
+
+/* 
+.logo {
+    border: 1px solid whitesmoke;
+    padding: 0; 
+    text-align: center; 
+}
+
+.list-no-bullet {
+    border: 1px solid pink; 
+    margin-top: 0;
+    text-align: center;
+}
+
+.list-item-inline {
+    display: block;
+    text-align: center;
+    border: 1px solid gold;  
+} */
 
  nav>ul>a:link  {
     color: var(--color4);
